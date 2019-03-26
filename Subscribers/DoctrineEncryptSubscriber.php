@@ -196,11 +196,11 @@ class DoctrineEncryptSubscriber implements EventSubscriber {
      */
     public function getSubscribedEvents() {
         return array(
-            Events::postUpdate,
-            Events::preUpdate,
+            // Events::postUpdate,
+            // Events::preUpdate,
             Events::postLoad,
-            Events::preFlush,
-            Events::postFlush
+            // Events::preFlush,
+            // Events::postFlush
         );
     }
 
